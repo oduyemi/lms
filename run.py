@@ -1,4 +1,5 @@
 from lms_app import starter
+from lms_app import db
 
 if __name__ == "__main__":
     with starter.app_context():
